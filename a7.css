@@ -1,0 +1,66 @@
+*{
+margin:0px;
+padding:0px;
+box-sizing:border-box;
+}
+body{
+width:100%;
+background-image: url("photo7.jpg");
+background-size:cover;
+background-repeat:no-repeat;
+font-family: sans-serif;
+}
+nav{
+background-color:black;
+height:100;
+line-height:50px;
+padding:0px 100px
+}
+nav h1{
+font-size:25;
+font-family:sans-serif;
+color:white;
+text-transform:uppercase;
+float:left;
+padding:7px;
+}
+nav ul{
+float:right;
+}
+nav ul li{
+float:left;
+position:relative;
+}
+nav ul li a{
+font-family:sans-serif;
+color:#D6E3E0;
+font-size:15px;
+padding:0px 20px;
+display:block;
+}
+
+nav ul li ul{
+position:absolute;
+display:none;
+background-color:#686E6D;
+border radius:0px 0px 2px 2px;
+}
+
+nav ul li ul li{
+line height:0;
+width:200px;
+border-radius: 1px;
+padding:3px;
+}
+nav ul li ul li a{
+padding: 5px 22px;
+}
+nav ul li ul li a:hover{
+background-color:black;
+}
+nav ul li a:hover{
+background-color:grey;
+}
+nav ul li:hover ul{
+display:block;
+}
